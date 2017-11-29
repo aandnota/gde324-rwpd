@@ -62,6 +62,13 @@ section#green fimg
 	padding-bottom: 1.5em;
 }
 
+p#bold{
+
+	font-style: italic;
+	color: #fff;
+	font-size: 1.25rem;
+}
+
 #four {
 	background-color: #FFCC86;
 	padding-top: .5em;
