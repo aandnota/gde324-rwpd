@@ -16,6 +16,12 @@ h3 {
 	font-size: 1.5em;
 }
 
+h4{
+	font-weight: 400;
+	font-size: 1.25em;
+	margin-bottom: 0.25rem;
+}
+
 .content {
 	max-width: 50em;
 	margin: 0 auto;
@@ -63,9 +69,13 @@ section#green fimg
 }
 
 p#bold{
-
 	font-style: italic;
 	color: #fff;
+	font-size: 1.25rem;
+	margin-top: .5rem;
+}
+
+p#bold>a{
 	font-size: 1.25rem;
 }
 
@@ -86,6 +96,10 @@ p#bold{
 	padding-bottom: 3.5em;
 }
 
+#part1{
+	padding-bottom: 1.25rem;
+}
+
 .list-element{
 	padding-bottom: 1.25em;
 }
@@ -96,6 +110,21 @@ p#bold{
 
 .list-element>ol>li{
 	padding-bottom: .75em;
+}
+
+div#video{
+	width: 100%;
+	padding-bottom: 50%;
+	position: relative;
+	/* padding-top: 30px; */
+	height: 0;
+	overflow: hidden;
+}
+
+div#video>iframe, div#video>object, div#video>embed{
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 @media (max-width:600px) {
